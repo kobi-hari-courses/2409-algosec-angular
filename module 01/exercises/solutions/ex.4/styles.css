@@ -1,0 +1,59 @@
+h1 {
+    border: 1px solid gray;
+    text-align: center;
+}
+
+h1.red {
+    background-color: lightpink;
+}
+
+h1.blue {
+    background-color: lightblue;
+}
+
+h1.green {
+    background-color: lightgreen;
+}
+
+h1.yellow {
+    background-color: lightgoldenrodyellow;
+}
+
+h1.brown {
+    background-color: lightsalmon;
+}
+
+h1.purple {
+    background-color: rgb(254, 235, 254);
+}
+
+li {
+    border: 1px solid gray;
+    list-style: none;
+    padding: 4px;
+    margin: 4px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+li:hover {
+    background-color: lightgray;
+}
+
+li.red {
+    color: red;
+}
+li.green {
+    color: green;
+}li.blue {
+    color: blue;
+}li.yellow {
+    color: yellowgreen;
+}
+li.brown {
+    color: brown;
+}li.purple {
+    color: purple;
+}
+
