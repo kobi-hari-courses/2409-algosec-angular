@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
     <title>Hello JavaScript</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <h1>Javascript is not JAVA</h1>
+<body onload="runThisOnlyAfterPageLoad()">
+    <h1 id="header">Javascript is not JAVA</h1>
     <ul>
         <li>It is not type safe</li>
         <li>It is not compiled</li>
@@ -15,11 +15,13 @@
     </ul>
     <h1>The DOM</h1>
     <ul>
-        <li>Document Object Model</li>
+        <li>Document <b>Object</b> Model</li>
         <li>It is a tree structure</li>
         <li>It is a representation of the HTML</li>
         <li>It is a way to interact with the HTML</li>
     </ul>
-    <button>Click me</button>
+    <button id="btnClick" onclick="whenButtonClicked()">Click me</button>
+    <script src="./script.js"></script>    
+
 </body>
 </html>
