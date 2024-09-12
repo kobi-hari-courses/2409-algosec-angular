@@ -5,7 +5,7 @@
 * [Module 01 - Introduction to web techs](./module%2001/README.md)
 
 ## Exercises
-* [Exercise 01 - PRactice HTML](./module%2001/exercises/readme.md)
+* [Exercise 01 - Practice HTML](./module%2001/exercises/readme.md)
 
 ## Extra Material
 * [Learn HTML in W3Schools](https://www.w3schools.com/html/default.asp)
