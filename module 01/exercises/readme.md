@@ -31,12 +31,6 @@ VS Code and a web browser.
 - Inside the `<head>` tag, add a `<style>` tag.
 - Write simple CSS rules, like changing the color of the heading or the background color of the body.
 
-### 7. Add a table with other hobbies
-- Create A `<table>` tag to create a table of other hobbies you recommend
-- The table should have 3 columns: **Hobby Name**, **Years Active**, and **Description**
-- Add header section with header row for the column headers
-- Add a few (3-4) rows with some data
-
 ## Learning Goals
 - Understand the structure of an HTML document.
 - Learn how to use tags like `<h1>`, `<p>`, `<img>`, `<ul>/<ol>`, and `<a>`.
