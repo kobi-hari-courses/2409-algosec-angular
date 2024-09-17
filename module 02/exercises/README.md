@@ -14,20 +14,20 @@ The goal of this exercise is to create a basic Node.js project, set it up using 
      ```
 
 2. **Install an external package**:
-   - Use npm to install the `chalk` package (used for styling terminal output):
+   - Use npm to install the `colors` package (used for styling terminal output):
      ```bash
-     npm install chalk
+     npm install colors
      ```
 
 3. **Create the main file**:
    - In the root folder, create a file named `index.js`.
    - Add the following code to `index.js`:
      ```javascript
-     const chalk = require('chalk');
+     const colors = require('colors');
 
      const name = 'Student';
-     console.log(chalk.blue(`Hello, ${name}! Welcome to the Node.js exercise.`));
-     console.log(chalk.green('This message is styled using the chalk package!'));
+     console.log(colors.blue(`Hello, ${name}! Welcome to the Node.js exercise.`));
+     console.log(colors.green('This message is styled using the colors package!'));
      ```
 
 4. **Set up an npm script**:
@@ -39,7 +39,7 @@ The goal of this exercise is to create a basic Node.js project, set it up using 
      ```
 
 5. **Debug using VS Code**:
-   - Open VS Code and set a breakpoint on the line where the `chalk.blue` function is called.
+   - Open VS Code and set a breakpoint on the line where the `colors.blue` function is called.
    - In VS Code, press `Ctrl+Shift+D` to open the debug view.
    - Create a `.vscode/launch.json` file by clicking "create a launch.json file" and configure it for Node.js debugging:
      ```json
