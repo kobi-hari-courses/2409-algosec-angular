@@ -12,5 +12,8 @@
     "npm"
   ],
   "author": "Kobi Hari",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0"
+  }
 }
