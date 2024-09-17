@@ -3,9 +3,11 @@
 ## Daily Summaries
 
 * [Module 01 - Introduction to web techs](./module%2001/README.md)
+* [Module 02 - NodeJS, npm, and Typescript](./module%2002/README.md)
 
 ## Exercises
-* [Exercise 01 - Practice HTML](./module%2001/exercises/readme.md)
+* [Module 01 - Practice HTML and JS](./module%2001/exercises/readme.md)
+* [Module 02 - Practice NodeJS, npm and TS](./module%2002/exercises/README.md)
 
 ## Extra Material
 * [Learn HTML in W3Schools](https://www.w3schools.com/html/default.asp)
