@@ -4,7 +4,10 @@
   "description": "were having fun with node and npm",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js", 
+    "build": "tsc not-main"
+    
   },
   "keywords": [
     "fun",
@@ -14,6 +17,10 @@
   "author": "Kobi Hari",
   "license": "ISC",
   "dependencies": {
-    "colors": "^1.4.0"
+    "colors": "^1.4.0",
+    "mathjs": "^13.1.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.2"
   }
 }
