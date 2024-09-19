@@ -4,6 +4,7 @@
 
 * [Module 01 - Introduction to web techs](./module%2001/README.md)
 * [Module 02 - NodeJS, npm, and Typescript](./module%2002/README.md)
+* [Module 03 - Introduction to Angular and Singals](./module%2003/README.md)
 
 ## Exercises
 * [Module 01 - Practice HTML and JS](./module%2001/exercises/readme.md)
