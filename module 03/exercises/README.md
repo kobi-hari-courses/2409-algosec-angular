@@ -138,9 +138,9 @@ In this exercise, you will continue working on the project created in the previo
 
 
 
-## Exercise 3 - Using Structural Directives (@if and @for) in Angular 18
+## Exercise 3 - Using Control Flow (@if and @for) in Angular 18
 
-In this exercise, you will use Angular’s new structural directives (`@if` and `@for`) to control the visibility of elements and display lists dynamically based on component data.
+In this exercise, you will use Angular’s new control flow (`@if` and `@for`) to control the visibility of elements and display lists dynamically based on component data.
 
 ### 1. Adding a Toggle Button for Conditional Rendering
 - Open `src/app/app.component.html`.
