@@ -1,0 +1,9 @@
+.toolbar {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+img {
+    height: 24px;
+}

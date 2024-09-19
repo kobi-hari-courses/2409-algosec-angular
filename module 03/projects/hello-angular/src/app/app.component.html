@@ -1,4 +1,25 @@
-<h1>Welcome to angular</h1>
-<h2>Hello World</h2>
+<div class="toolbar">
+    <input type="search" #mySearchBox 
+        (input)="setKeyword(mySearchBox.value)"
+        [disabled]="isBusy">
+    <button (click)="search()" [disabled]="isBusy">Go</button>
+    @if(isBusy) {<img src="spinner.gif">}
+</div>
+<div class="results">
+    <ul>
+        @for(res of results; track res) {
+            <li>{{res}}</li>
+        }
+    </ul>
+</div>
 
-<h3>This application is called {{title}}</h3>
+
+<!--
+1. Text interpolation {{}}
+2. Directive Input binding []
+3. Control flow @if @for
+
+4. Event binding ()
+
+
+-->
