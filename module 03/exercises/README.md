@@ -185,7 +185,7 @@ In this exercise, you will use Angular’s new control flow (`@if` and `@for`) t
 - In `src/app/app.component.html`, add an unordered list that uses `@for` to iterate over the `items` array and display each item:
   ```html
   <ul>
-    @for (let item of items) {
+    @for (item of items; track item) {
       <li>{{ item }}</li>
     }
   </ul>
