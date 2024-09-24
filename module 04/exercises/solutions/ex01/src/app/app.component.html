@@ -1,0 +1,4 @@
+@for(num of data(); track $index) {
+    <app-counter [value]="num" 
+        (changeValue)="changeValue($index, $event)"/>
+}

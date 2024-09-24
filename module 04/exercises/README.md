@@ -11,7 +11,7 @@ You will create a signal to hold an array of numbers. Each number will be passed
 Each `CounterComponent` will receive the number from the parent via an `input`. The component will render increment and decrement buttons and emit the updated value back to the parent when these buttons are clicked.
 
 #### Hint
-- User `input` and `output` but do not use a model in this case (do you know why?)
+- Use `input` and `output` but do not use a model in this case (do you know why?)
 
 ## Instructions
 
