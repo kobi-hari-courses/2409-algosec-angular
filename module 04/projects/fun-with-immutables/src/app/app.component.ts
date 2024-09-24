@@ -13,12 +13,40 @@ import { CommonModule } from '@angular/common';
 export class AppComponent {
   readonly person = signal<Person>({
     name: 'John Doe',
-    age: 30
+    age: 30, 
+    address: {
+      city: 'New York',
+      street: '5th Avenue',
+      zip: '10001'
+    }
   });
 
+  readonly numbers = signal([1, 2, 3, 4, 5]);
+
   changeName(name: string) {
-    // how do we change the name
+    setTimeout(() => {
+      // how do we change the name
+      this.person.update(p => ({
+        ...p, 
+        address: {
+          ...p.address, 
+          city: 'Washington'
+        }
+      }));
+
+    }, 500);
   }
+
+  addNewNumber() {
+    setTimeout(() => {
+      this.numbers.update(n => [-1, ...n, n.length + 1]);
+    });
+  }
+
+  immutableActionsOnArrays() {
+    
+  }
+
 
   constructor() {
     effect(() => {
