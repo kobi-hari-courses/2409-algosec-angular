@@ -1,10 +1,11 @@
 import { Component, signal } from '@angular/core';
 import { TitleComponent } from './components/title/title.component';
+import { StringSelectorComponent } from "./components/string-selector/string-selector.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [TitleComponent],
+  imports: [TitleComponent, StringSelectorComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
@@ -24,11 +25,11 @@ export class AppComponent {
     this.selectedColor.set(color);
   }
 
-  changeSize(size: string) {
-    this.selectedSize.set(size);
-  }
+  // changeSize(size: string) {
+  //   this.selectedSize.set(size);
+  // }
 
-  changeFont(font: string) {
-    this.selectedFont.set(font);
-  }
+  // changeFont(font: string) {
+  //   this.selectedFont.set(font);
+  // }
 }

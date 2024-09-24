@@ -1,0 +1,6 @@
+@for(item of options(); track item) {
+    <div class="item" 
+      [class.chosen]="item === selectedOption()"
+      (click)="onSelect(item)"
+      >{{item}}</div>
+  }
