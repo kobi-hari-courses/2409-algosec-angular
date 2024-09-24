@@ -1,4 +1,4 @@
-import { Component, EventEmitter, input, model, Output, output, signal } from '@angular/core';
+import { Component, EventEmitter, input, model, OnChanges, OnDestroy, OnInit, Output, output, signal, SimpleChanges } from '@angular/core';
 
 @Component({
   selector: 'app-string-selector',
@@ -8,6 +8,7 @@ import { Component, EventEmitter, input, model, Output, output, signal } from '@
   styleUrl: './string-selector.component.css'
 })
 export class StringSelectorComponent {
+  
   readonly options = input.required<string[]>();
   readonly selectedOption = model.required<string>();
 
