@@ -4,6 +4,7 @@
 |     |     |
 | --- | --- |
 | [Notepad](./projects/notepad/) | Authoring components using `input`, `output` and `model` |
+| [Immutables](./projects/fun-with-immutables/) | Immutable operators on objects and arrays |
 
 ## Summary
 ### Authoring components in angular
