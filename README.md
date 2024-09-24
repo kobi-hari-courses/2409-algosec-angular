@@ -5,6 +5,7 @@
 * [Module 01 - Introduction to web techs](./module%2001/README.md)
 * [Module 02 - NodeJS, npm, and Typescript](./module%2002/README.md)
 * [Module 03 - Introduction to Angular and Singals](./module%2003/README.md)
+* [Module 04 - Component `input`, `output` and `model`](./module%2004/README.md)
 
 ## Exercises
 [Home Exercises Repo](https://github.com/kobi-hari-courses/angular-exercises)
@@ -12,6 +13,7 @@
 * [Module 01 - Practice HTML and JS](./module%2001/exercises/readme.md)
 * [Module 02 - Practice NodeJS, npm and TS](./module%2002/exercises/README.md)
 * [Module 03 - Introduction to Angular](./module%2003/exercises/README.md)
+* [Module 04 - Component Signal based APIs](./module%2004/exercises/README.md)
 
 ## Extra Material
 * [Learn HTML in W3Schools](https://www.w3schools.com/html/default.asp)

@@ -1,6 +1,6 @@
 # Module 3 - Introduction Angular, and Signals
 
-### Projects:
+## Projects:
 |     |     |
 | --- | --- |
 | [Hello Angular](./projects/hello-angular/) | Bare bones angular application |
