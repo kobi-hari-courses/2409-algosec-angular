@@ -7,6 +7,8 @@
 * [Module 03 - Introduction to Angular and Singals](./module%2003/README.md)
 
 ## Exercises
+[Home Exercises Repo](https://github.com/kobi-hari-courses/angular-exercises)
+
 * [Module 01 - Practice HTML and JS](./module%2001/exercises/readme.md)
 * [Module 02 - Practice NodeJS, npm and TS](./module%2002/exercises/README.md)
 * [Module 03 - Introduction to Angular](./module%2003/exercises/README.md)
