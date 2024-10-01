@@ -4,7 +4,8 @@
 |     |     |
 | --- | --- |
 | [DI](./projects//fun-with-di/) | Dependency Injection in Angular 14+ |
-| []
+| [Signal Store](./projects/fun-with-ngrx-signals/) | Introduction to Signal Store |
+
 
 ## Summary
 
