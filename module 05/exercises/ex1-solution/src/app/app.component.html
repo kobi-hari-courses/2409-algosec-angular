@@ -1,0 +1,9 @@
+<label>X</label>
+<input type="number" #inputX 
+  (input)="store.updateX(inputX.valueAsNumber)">
+
+<label>Y</label>
+<input type="number" #inputY
+  (input)="store.updateY(inputY.valueAsNumber)">
+
+<p>Sum: {{ store.sum() }}</p>
