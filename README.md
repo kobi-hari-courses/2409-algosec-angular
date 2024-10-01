@@ -15,6 +15,7 @@
 * [Module 02 - Practice NodeJS, npm and TS](./module%2002/exercises/README.md)
 * [Module 03 - Introduction to Angular](./module%2003/exercises/README.md)
 * [Module 04 - Component Signal based APIs](./module%2004/exercises/README.md)
+* [Module 05 - Signal Store](./module%2005/exercises/README.md)
 
 ## Extra Material
 * [Learn HTML in W3Schools](https://www.w3schools.com/html/default.asp)
