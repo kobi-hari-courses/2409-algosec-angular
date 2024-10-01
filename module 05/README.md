@@ -4,6 +4,7 @@
 |     |     |
 | --- | --- |
 | [DI](./projects//fun-with-di/) | Dependency Injection in Angular 14+ |
+| []
 
 ## Summary
 
@@ -69,4 +70,29 @@ function everySecond(destroyRef: DestroyRef = inject(DestroyRef)) {
 ```
 
 
+
+
+### NgRx Signal store
+#### Overview
+- Signal store is a library that allows us to create injectable services that manage state using signals
+- The state is stored as one big signal, along with specific signals for each property and sub property
+- The signal store architecture is based on functional programming concepts
+
+#### Installation
+- We rely on the `ngrx/signals` package which we install using npm
+- We then define a `store` folder for each signal store we want to use
+- We use the `signalStore` function to create a new signal store
+
+#### Features
+- Each signal store is built using "features" that fill it with data and logic
+- Each feature is a method that uses the total sum of previous features and add more functionality to the store
+- The `withState` feature adds state signals
+- The `withComputed` feature adds computed signals
+- The `withMethods` feature adds methods 
+- The `withHooks` feature adds init and destroy lifecycle hooks
+
+#### Reading and modifying the state
+- Use `getState` to get the entire state as one big signal
+- Alternatively, for each property of the state, there is a dedicated property returning a signal of that specific slice of the state
+- Use `patchState` to modify the state of the entire store
 
