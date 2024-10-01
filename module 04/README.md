@@ -1,4 +1,4 @@
-# Module 04 - Component Authoring APIs using signals
+# Module 04 - Component Authoring APIs using signals, Intro to DI
 
 ## Projects:
 |     |     |
