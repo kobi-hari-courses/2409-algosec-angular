@@ -1,6 +1,6 @@
 <h1>{{store.caption()}}</h1>
 <ul>
-  @for(task of store.tasks(); track task.id) {
+  @for(task of store.taskEntities(); track task.id) {
     <li>{{task.title}}</li>
   }
 </ul>
@@ -12,3 +12,7 @@
 
 <input type="text" #newTask>
 <button (click)="store.addTask(newTask.value)">Add</button>
+
+
+<app-use-store/>
+<app-use-store/>

@@ -7,3 +7,4 @@ export function addTask(tasks: Task[], title: string): Task[] {
         isCompleted: false
     }];
 }
+
