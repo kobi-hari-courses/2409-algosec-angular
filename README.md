@@ -7,6 +7,7 @@
 * [Module 03 - Introduction to Angular and Singals](./module%2003/README.md)
 * [Module 04 - Component `input`, `output` and `model`](./module%2004/README.md)
 * [Module 05 - DI Contd](./module%2005/README.md)
+* [Module 06 - rxMethod, Routing](./module%2006/README.md)
 
 ## Exercises
 [Home Exercises Repo](https://github.com/kobi-hari-courses/angular-exercises)

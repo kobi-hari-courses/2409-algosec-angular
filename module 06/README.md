@@ -3,7 +3,9 @@
 ## Projects
 |     |     |
 | --- | --- |
-| [rx Colors](./projects//fun-with-di/) | Dependency Injection in Angular 14+ |
+| [rx Colors](./projects/rx-colors/) | Reactive X and Signals based application |
+| [fun with router](./projects/fun-with-router/) | Angular Routing |
+
 
 
 ## Summary

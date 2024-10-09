@@ -1,5 +1,5 @@
 import { inject, Injectable } from '@angular/core';
-import { Observable } from 'rxjs';
+import { Observable, tap } from 'rxjs';
 import { Color } from '../models/color.model';
 import { HttpClient } from '@angular/common/http';
 
@@ -12,8 +12,11 @@ export class DataService {
   constructor() { }
 
   searchColors(keyword: string): Observable<Color[]> {
+    console.log('search started for ', keyword);
     const url = `http://localhost:3000/colors?name_like=${keyword}`;
     const res$ = this.http.get<Color[]>(url);
-    return res$;    
+    return res$.pipe(
+      tap(_ => console.log('search completed for ', keyword))
+    )  
   }
 }

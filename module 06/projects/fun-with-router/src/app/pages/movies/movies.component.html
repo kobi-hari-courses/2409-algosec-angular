@@ -1,0 +1,18 @@
+@if(store.busy()) {
+    <div class="busy">
+        Please wait...
+    </div>
+}
+@else {
+    <div class="movies-list">
+        @for(movie of store.movies(); track movie.id) {
+        
+            <div class="movie" (click)="gotoMovie(movie.id)">
+                {{movie.name}}
+            </div>    
+        }            
+    </div>
+    <div class="movie-details">
+        <router-outlet/>
+    </div>
+}

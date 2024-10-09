@@ -1,0 +1,15 @@
+@if(store.busy()) {
+    <div class="busy">
+        Please wait...
+    </div>
+} @else {
+    @if(store.movie(); as movie) {
+
+        <div class="movie-details">
+            <h1>{{movie.name}}</h1>
+            <img [src]="store.poster()">
+        </div>
+    
+    }
+    
+}

@@ -1,5 +1,6 @@
 <div class="toolbar">
     <input type="text" #searchBox (input)="store.search(searchBox.value)">
+    @if(store.busy()) {<img src="busy.gif">}
 </div>
 
 <div class="results">
