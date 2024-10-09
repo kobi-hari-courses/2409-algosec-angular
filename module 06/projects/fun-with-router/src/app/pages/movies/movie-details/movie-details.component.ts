@@ -11,7 +11,7 @@ import { CommonModule } from '@angular/common';
   providers: [MovieDetailsStore]
 
 })
-export class MovieDetailsComponent {
+export default class MovieDetailsComponent {
   readonly movieId = input.required<number>();
 
   readonly store = inject(MovieDetailsStore);

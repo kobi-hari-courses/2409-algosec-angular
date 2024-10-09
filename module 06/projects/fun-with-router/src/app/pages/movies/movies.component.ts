@@ -11,7 +11,7 @@ import { Router, RouterModule } from '@angular/router';
   providers: [MoviesStore]
 
 })
-export class MoviesComponent {
+export default class MoviesComponent {
   readonly store = inject(MoviesStore);
   readonly router = inject(Router);
 

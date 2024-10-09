@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
   templateUrl: './actors.component.html',
   styleUrl: './actors.component.scss'
 })
-export class ActorsComponent {
+export default class ActorsComponent {
 
 }
